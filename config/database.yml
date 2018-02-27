@@ -81,11 +81,18 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
-#
+
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
   database: db1
-  username: openjournal
-  password: <%= ENV['STORIES_DATABASE_PASSWORD'] %>
   pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
+
+#production:
+ # <<: *default
+  #database: db1
+  #username: openjournal
+  #password: <%= ENV['STORIES_DATABASE_PASSWORD'] %>
+  #pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
 
