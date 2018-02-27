@@ -1,7 +1,7 @@
 /*** Colors ***/
 $black: #000000;
 $white: #ffffff;
-$accent-color: #00ab6b;
+$accent-color: #dd4b39;
 $light-gray: rgba(0,0,0,0.44);
 $super-light-gray: rgba(0,0,0,0.05);
 
@@ -21,23 +21,23 @@ $font-black: rgba(0,0,0, 0.8);
 $super-light-font-color: $border-hover-color;
 
 // button color
-$button-green: #02b875;
+$button-green: #3b5998;
 
 // background color
-$background-gray: #fafafa;
+$background-gray: linear-gradient(-90deg, #ffffff, #f8f8f8 );
 
 // Progress bar (on page change)
-$progress-bar: #9EFD38;
+$progress-bar: #00aced;
 
 // border radius
 $radius: 3px;
 $popover: 4px;
 $round: 50%;
-$button: 20px;
+$button: 0px;
 
 /*** Font Stacks ***/
 $main-stack: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-$reading-stack: 'Lora', Georgia, serif;
+$reading-stack:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /*** Z-index ***/
 $z-popover: 20;

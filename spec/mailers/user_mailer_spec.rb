@@ -6,9 +6,9 @@ RSpec.describe UserMailer, type: :mailer do
     let(:mail) { UserMailer.welcome_email(user) }
 
     it "renders the headers" do
-      expect(mail.subject).to eq("Welcome to Stories")
+      expect(mail.subject).to eq("Welcome to the OpenJournal")
       expect(mail.to).to eq([user.email])
-      expect(mail.from).to eq(["stories@example.com"])
+      expect(mail.from).to eq(["foodhallopenjournal@gmail.com"])
     end
 
     # it "renders the body" do
