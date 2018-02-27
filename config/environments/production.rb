@@ -62,15 +62,7 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use Memcached as a cache store in production.
-  #config.cache_store = :dalli_store,
-  #                  (ENV["MEMCACHIER_SERVERS"] || "").split(","),
-  #                  {:username => ENV["MEMCACHIER_USERNAME"],
-  #                   :password => ENV["MEMCACHIER_PASSWORD"],
-  #                   :failover => true,
-  #                   :socket_timeout => 1.5,
-  #                   :socket_failure_delay => 0.2
-  #                  }
-
+  
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
@@ -78,7 +70,7 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'limitless-brook-9946.herokuapp.com'
+  host = ''
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
