@@ -54,6 +54,7 @@ gem 'nokogiri', '~> 1.6'
 # Caching
 gem 'dalli', '~> 2.7'
 gem 'xmlrpc'
+gem 'memcachier'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

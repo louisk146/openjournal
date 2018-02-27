@@ -199,6 +199,7 @@ GEM
     lumberjack (1.0.12)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
+    memcachier (0.0.2)
     method_source (0.9.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -259,7 +260,7 @@ GEM
     puma (2.16.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
-    rack (1.6.8)
+    rack (1.6.9)
     rack-mini-profiler (0.9.9.2)
       rack (>= 1.2.0)
     rack-protection (1.5.4)
@@ -424,7 +425,6 @@ DEPENDENCIES
   annotate
   autoprefixer-rails (~> 6.3)
   awesome_print (~> 1.6)
-  bcrypt
   bonsai-elasticsearch-rails
   bootstrap-sass (~> 3.3.6)
   bullet (~> 5.0)
@@ -447,6 +447,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails (~> 5.0)
   launchy (~> 2.4.3)
+  memcachier
   mini_magick (= 3.8.0)
   net-ssh
   nokogiri (~> 1.6)
